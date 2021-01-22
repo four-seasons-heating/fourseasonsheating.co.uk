@@ -1,0 +1,92 @@
+/* 4S Orange (P 2028 CP): #DE5722 */
+/* 4S Blue (P 108-16 C): #183859 */
+/* 4S Blue 10% darker: #0d1f30 */
+/* 4S Blue 10% lighter: #235380 */
+
+body {	
+	background: #183859 url("images/overlay.png");
+}
+
+#header.alt .logo {
+	-moz-transition: opacity 3s ease;
+	-webkit-transition: opacity 3s ease;
+	-ms-transition: opacity 3s ease;
+	transition: opacity 3s ease;
+	-moz-transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	transition-delay: 0s;
+	opacity: 1;
+}
+
+.image img {
+	border-radius: 4px;
+}
+
+.spotlight .image {
+	padding: 0;
+	border: 0;
+}
+
+.spotlight .image,
+.spotlight .image img {
+	border-radius: 8px;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+	color: #183859;
+}
+
+#main h3 {
+	color: #DE5722;
+	font-weight: 400;
+}
+
+header.major p {
+	font-size: 1.2em;
+	letter-spacing: -0.02em;
+}
+
+/*.spotlight .image img {
+	width: 24em;
+}*/
+
+/*@media screen and (max-width: 736px) {
+	.spotlight .image img {
+		width: 18em;
+	}
+}*/
+
+#main header.major h2:after {
+	background-color: #DE5722;
+	background-image: -moz-linear-gradient(90deg, #DE5722, #183859);
+	background-image: -webkit-linear-gradient(90deg, #DE5722, #183859);
+	background-image: -ms-linear-gradient(90deg, #DE5722, #183859);
+	background-image: linear-gradient(90deg, #DE5722, #183859);
+}
+
+#main input[type="submit"].primary,
+#main input[type="reset"].primary,
+#main input[type="button"].primary,
+#main button.primary,
+#main .button.primary {
+	background-color: #183859;
+}
+
+#main input[type="submit"].primary:hover,
+#main input[type="reset"].primary:hover,
+#main input[type="button"].primary:hover,
+#main button.primary:hover,
+#main .button.primary:hover {
+	background-color: #235380;
+}
+
+#main input[type="submit"].primary:active,
+#main input[type="reset"].primary:active,
+#main input[type="button"].primary:active,
+#main button.primary:active,
+#main .button.primary:active {
+	background-color: #0d1f30;
+}
+
+
